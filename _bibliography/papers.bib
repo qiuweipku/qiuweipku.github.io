@@ -64,7 +64,61 @@ ENABL Age brings an important leap forward in the application of XAI for interpr
   abstract={{In medical risk prediction scenarios, machine learning methods have demonstrated an ability to learn complex and predictive relationships among rich feature sets. However, in practice, when faced with new patients, we may not have access all information expected by a trained risk model. We propose a framework to simultaneously provide flexible risk estimates for samples with missing features, as well as context-dependent feature recommendations to identify what piece of information may be most valuable to collect next. Our approach uses a fixed prediction model, a local feature explainer, and ensembles of imputed samples to generate risk prediction intervals and feature recommendations. Applied to a myocardial infarction risk prediction task in the UK Biobank dataset, we find that our approach can more efficiently predict risk of a heart attack with fewer observed features than traditional fixed imputation and global feature selection methods.}},
   html={https://openreview.net/forum?id=1itfhff53V#all},
   pdf={https://openreview.net/pdf?id=1itfhff53V},
+  selected={false}
+}
+
+@inproceedings{covert2023learning,
+  abbr={ICML},
+  title={Learning to maximize mutual information for dynamic feature selection},
+  author={Covert, Ian Connick and Qiu, Wei and Lu, Mingyu and Kim, Na Yoon and White, Nathan J and Lee, Su-In},
+  booktitle={International Conference on Machine Learning},
+  pages={6424--6447},
+  year={2023},
+  organization={PMLR},
+  abstract={{Feature selection helps reduce data acquisition costs in ML, but the standard approach is to train models with static feature subsets. Here, we consider the dynamic feature selection (DFS) problem where a model sequentially queries features based on the presently available information. DFS is often addressed with reinforcement learning, but we explore a simpler approach of greedily selecting features based on their conditional mutual information. This method is theoretically appealing but requires oracle access to the data distribution, so we develop a learning approach based on amortized optimization. The proposed method is shown to recover the greedy policy when trained to optimality, and it outperforms numerous existing feature selection methods in our experiments, thus validating it as a simple but powerful approach for this problem.}},
+  html={https://proceedings.mlr.press/v202/covert23a.html},
+  pdf={https://proceedings.mlr.press/v202/covert23a/covert23a.pdf},
   selected={true}
+}
+
+@article{qiu2023isolating,
+  abbr={bioRxiv},
+  title={Isolating structured salient variations in single-cell transcriptomic data with StrastiveVI},
+  author={Qiu, Wei and Weinberger, Ethan and Lee, Su-In},
+  journal={bioRxiv},
+  pages={2023--10},
+  year={2023},
+  publisher={Cold Spring Harbor Laboratory},
+  abstract={{Single-cell RNA sequencing (scRNA-seq) has provided deeper insights into biological processes by highlighting differences at the cellular level. Within these single-cell omics measurements, researchers are often interested in identifying variations associated with a specific covariate. For instance, in aging research, it becomes vital to differentiate variations related to aging. To address this, we introduce StrastiveVI (Structured Contrastive Variational Inference; https://github.com/suinleelab/StrastiveVI), which effectively separates the variations of interest from other dominant biological signals in scRNA-seq datasets. When deployed on aging and Alzheimer’s disease (AD) datasets, StrastiveVI efficiently isolates aging and AD-associated patterns, distinguishing them from dominant variations linked to sex, tissue, and cell type that are unrelated to aging or AD. In doing so, it underscores both well-known genes and potential novel genes related to aging or AD.}},
+  html={https://www.biorxiv.org/content/10.1101/2023.10.06.561320v1.abstract},
+  pdf={https://www.biorxiv.org/content/10.1101/2023.10.06.561320v1.full.pdf},
+  selected={true}
+}
+
+@article{qiu2022interpretable,
+  abbr={Commun. Med.}
+  title={Interpretable machine learning prediction of all-cause mortality},
+  author={Qiu, Wei and Chen, Hugh and Dincer, Ayse Berceste and Lundberg, Scott and Kaeberlein, Matt and Lee, Su-In},
+  journal={Communications Medicine},
+  volume={2},
+  number={1},
+  pages={125},
+  year={2022},
+  publisher={Nature Publishing Group UK London},
+  abstract={{Background
+Unlike linear models which are traditionally used to study all-cause mortality, complex machine learning models can capture non-linear interrelations and provide opportunities to identify unexplored risk factors. Explainable artificial intelligence can improve prediction accuracy over linear models and reveal great insights into outcomes like mortality. This paper comprehensively analyzes all-cause mortality by explaining complex machine learning models.
+
+Methods
+We propose the IMPACT framework that uses XAI technique to explain a state-of-the-art tree ensemble mortality prediction model. We apply IMPACT to understand all-cause mortality for 1-, 3-, 5-, and 10-year follow-up times within the NHANES dataset, which contains 47,261 samples and 151 features.
+
+Results
+We show that IMPACT models achieve higher accuracy than linear models and neural networks. Using IMPACT, we identify several overlooked risk factors and interaction effects. Furthermore, we identify relationships between laboratory features and mortality that may suggest adjusting established reference intervals. Finally, we develop highly accurate, efficient and interpretable mortality risk scores that can be used by medical professionals and individuals without medical expertise. We ensure generalizability by performing temporal validation of the mortality risk scores and external validation of important findings with the UK Biobank dataset.
+
+Conclusions
+IMPACT’s unique strength is the explainable prediction, which provides insights into the complex, non-linear relationships between mortality and features, while maintaining high accuracy. Our explainable risk scores could help individuals improve self-awareness of their health status and help clinicians identify patients with high risk. IMPACT takes a consequential step towards bringing contemporary developments in XAI to epidemiology.}},
+html={https://www.nature.com/articles/s43856-022-00180-x},
+pdf={https://www.nature.com/articles/s43856-022-00180-x.pdf},
+selected={true}
 }
 
 @inproceedings{guo2021automated,
@@ -82,3 +136,70 @@ ENABL Age brings an important leap forward in the application of XAI for interpr
   selected={false},
 }
 
+@inproceedings{qiu2020ifgan,
+  abbr={IEEE BigData},
+  title={IFGAN: missing value imputation using feature-specific generative adversarial networks},
+  author={Qiu*, Wei and Huang*, Yangsibo and Li, Quanzheng},
+  booktitle={2020 IEEE International Conference on Big Data (Big Data)},
+  pages={4715--4723},
+  year={2020},
+  organization={IEEE},
+  abstract={{Missing value imputation is a challenging and well- researched topic in data mining. In this paper, we propose IFGAN, a missing value imputation algorithm based on Feature- specific Generative Adversarial Networks (GAN). Our idea is intuitive yet effective: a feature-specific generator is trained to impute missing values, while a discriminator is expected to distinguish the imputed values from observed ones. The proposed architecture is capable of handling different data types, data distributions, missing mechanisms, and missing rates. It also improves post-imputation analysis by preserving inter-feature correlations. We empirically show on several real-life datasets that IFGAN outperforms current state-of-the-art algorithm under various missing conditions.}},
+  html={https://ieeexplore.ieee.org/abstract/document/9378240},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9378240},
+  selected={false}
+}
+
+@inproceedings{qiu2020multi,
+  abbr={IEEE BigData},
+  title={Multi-label detection and classification of red blood cells in microscopic images},
+  author={Qiu*, Wei and Guo*, Jiaming and Li, Xiang and Xu, Mengjia and Zhang, Mo and Guo, Ning and Li, Quanzheng},
+  booktitle={2020 IEEE International Conference on Big Data (Big Data)},
+  pages={4257--4263},
+  year={2020},
+  organization={IEEE},
+  abstract={{Cell detection and cell type classification from biomedical images play an important role for high-throughput imaging and various clinical application. While classification of single cell sample can be performed with standard computer vision and machine learning methods, analysis of multi-label samples (region containing congregating cells) is more challenging, as separation of individual cells can be difficult (e.g. touching cells) or even impossible (e.g. overlapping cells). As multi-instance images are common in analyzing Red Blood Cell (RBC) for Sickle Cell Disease (SCD) diagnosis, we develop and implement a multi-instance cell detection and classification framework to address this challenge. The framework firstly trains a region proposal model based on Region-based Convolutional Network (RCNN) to obtain bounding-boxes of regions potentially containing single or multiple cells from input microscopic images, which are extracted as image patches. High-level image features are then calculated from image patches through a pre-trained Convolutional Neural Network (CNN) with ResNet-50 structure. Using these image features inputs, six networks are then trained to make multi-label prediction of whether a given patch contains cells belonging to a specific cell type. As the six networks are trained with image patches consisting of both individual cells and touching/overlapping cells, they can effectively recognize cell types that are presented in multi-instance image samples. Finally, for the purpose of SCD testing, we train another machine learning classifier to predict whether the given image patch contains abnormal cell type based on outputs from the six networks. Testing result of the proposed framework shows that it can achieve good performance in automatic cell detection and classification.}},
+  html={https://ieeexplore.ieee.org/abstract/document/9377782},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9377782},
+  selected={false},
+}
+
+@inproceedings{guo2019predicting,
+  abbr={IEEE BigData},
+  title={Predicting Alzheimer’s disease by hierarchical graph convolution from positron emission tomography imaging},
+  author={Guo*, Jiaming and Qiu*, Wei and Li, Xiang and Zhao, Xuandong and Guo, Ning and Li, Quanzheng},
+  booktitle={2019 IEEE international conference on big data (big data)},
+  pages={5359--5363},
+  year={2019},
+  organization={IEEE},
+  abstract={{Imaging-based early diagnosis of Alzheimer Disease (AD) has become an effective approach, especially by using nuclear medicine imaging techniques such as Positron Emission Topography (PET). In various literature it has been found that PET images can be better modeled as signals (e.g. uptake of florbetapir) defined on a network (non-Euclidean) structure which is governed by its underlying graph patterns of pathological progression and metabolic connectivity. In order to effectively apply deep learning framework for PET image analysis to overcome its limitation on Euclidean grid, we develop a solution for 3D PET image representation and analysis under a generalized, graph-based CNN architecture (PETNet), which analyzes PET signals defined on a group-wise inferred graph structure. Computations in PETNet are defined in non-Euclidean, graph (network) domain, as it performs feature extraction by convolution operations on spectral-filtered signals on the graph and pooling operations based on hierarchical graph clustering. Effectiveness of the PETNet is evaluated on the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset, which shows improved performance over both deep learning and other machine learning-based methods.}},
+  html={https://ieeexplore.ieee.org/abstract/document/9005971},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9005971},
+  selected={false}
+}
+
+@article{ren2019recurrent,
+  title={Recurrent neural network enhance phenotyping in heart failure with preserved ejection fraction using electronic health record},
+  author={Ren, Hui and Qiu, Wei and Zhong, Aoxiao and Yu, Sijia and Li, Xiang and Guo, Ning and Li, Quanzheng},
+  journal={Circulation},
+  volume={140},
+  number={Suppl\_1},
+  pages={A12835--A12835},
+  year={2019},
+  publisher={Am Heart Assoc},
+  html={https://www.ahajournals.org/doi/abs/10.1161/circ.140.suppl_1.12835},
+  selected={false}
+}
+
+@article{ren2019personalized,
+  title={Personalized Treatment for Heart Failure With Preserved Ejection Fraction Using Deep Reinforcement Learning},
+  author={Ren, Hui and Yu, Sijia and Li, Xiang and Qiu, Wei and Zhong, Aoxiao and Guo, Ning and Li, Quanzheng},
+  journal={Circulation},
+  volume={140},
+  number={Suppl\_1},
+  pages={A15036--A15036},
+  year={2019},
+  publisher={Am Heart Assoc},
+  html={https://www.ahajournals.org/doi/abs/10.1161/circ.140.suppl_1.15036},
+  selected={false}
+}
