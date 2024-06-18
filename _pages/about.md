@@ -2,26 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D student @UW.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_Wei.jpeg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Ph.D student @UW. Preivously: AI2/Google/ MSR/JHU.
 
-I am a final year Ph.D. student in Biomedical and Health Informatics Department (BIME) at the University of Washignton, advised by Prof. Trevor Cohen.
+I am a final year PhD student at the [Paul Allen School of Computer Science and Engineering](https://www.cs.washington.edu) at University of Washington supervised by [Su-In Lee](https://suinlee.cs.washington.edu/). Before my PhD, I earned BSs in Data Science and Big Data Technology at Yuanpei College, Peking University. Please see my [CV](https://qiuweipku.github.io/cv/) for more information.
 
-I was a postdoctoral researcher at Johns Hopkins University School of Medicine, with Todd McNutt. I received my Master degree from the Johns Hopkins Bloomberg School of Public Health, majoring in cancer Epidemiology and M.B.B.S degree (equivalent to M.D.) from Capital Medical University.
-
-My research interest broadly spans natural language processing in medical domain. My current interests primarily include enhancing the accessibility and personalization of health information by NLP methodologies.
+My research interest involves utilizing machine learning to explore the mechanisms of aging and age-related diseases, as well as to conduct single-cell data analysis and genomics studies. Additionally, I am engaged in the development and application of Explainable Artificial Intelligence (XAI) methods, aiming to enhance transparency and efficacy in biomedical and healthcare settings.
