@@ -19,6 +19,28 @@
       }
     ]
   },
+  "education": [
+    {
+      "institution": "University of Washington, Seattle, US",
+      "area": "Computer Science & Computational Molecular Biology",
+      "studyType": "Doctor of Philosophy ",
+      "startDate": "2019-9",
+      "endDate": "current",
+      "score": "",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Peking University, Beijing, China",
+      "area": "Data Science and Big Data Technology (Yuanpei College)",
+      "studyType": "Bachelor of Science",
+      "startDate": "2015-9",
+      "endDate": "2019-6",
+      "score": "",
+      "courses": [
+      ]
+    }
+  ],
   "work": [
     {
       "name": "University of Washington, Computer Science & Engineering",
@@ -92,28 +114,6 @@
       "summary": "Work with Prof. Quanzheng Li and Prof. Luxia Zhang",
       "highlights": [
         "The changes of spectrum and etiological factors analysis of Kidney patients in China"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Washington, Seattle, US",
-      "area": "Computer Science & Computational Molecular Biology",
-      "studyType": "Doctor of Philosophy ",
-      "startDate": "2019-9",
-      "endDate": "current",
-      "score": "",
-      "courses": [
-      ]
-    },
-    {
-      "institution": "Peking University, Beijing, China",
-      "area": "Data Science and Big Data Technology (Yuanpei College)",
-      "studyType": "Bachelor of Science",
-      "startDate": "2015-9",
-      "endDate": "2019-6",
-      "score": "",
-      "courses": [
       ]
     }
   ],
