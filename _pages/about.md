@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: Ph.D student @UW CSE.
+subtitle: Ph.D. Student @UW CSE.
 
 profile:
   align: right
