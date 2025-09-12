@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: Assistant Professor @Rice ECE (start Jan 2026)
+subtitle: Assistant Professor @Rice ECE & CS (start Jan 2026)
 
 profile:
   align: right
