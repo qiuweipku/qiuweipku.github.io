@@ -7,7 +7,7 @@ subtitle: Assistant Professor @Rice ECE (start Jan 2026)
 
 profile:
   align: right
-  image: prof_pic_Wei.jpeg
+  image: Wei_Qiu_profile.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
