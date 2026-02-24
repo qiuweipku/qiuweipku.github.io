@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a final year PhD student at the [Paul Allen School of Computer Science and Engineering](https://www.cs.washington.edu) at the University of Washington, supervised by [Su-In Lee](https://suinlee.cs.washington.edu/). I will be joining Rice University as an Assistant Professor in the [Department of Electrical and Computer Engineering](https://eceweb.rice.edu/) with a joint faculty appointment in the [Department of Computer Science](https://cs.rice.edu/), starting in January 2026. Before my PhD, I earned a BS in Data Science and Big Data Technology at Yuanpei College, Peking University. Please see my [CV](https://qiuweipku.github.io/cv/) for more information. 
+I am an Assistant Professor in the [Department of Electrical and Computer Engineering](https://eceweb.rice.edu/) at Rice University, with a joint appointment in the [Department of Computer Science](https://cs.rice.edu/). I received my PhD from the [Paul G. Allen School of Computer Science and Engineering](https://www.cs.washington.edu) at the University of Washington, where I was advised by [Su-In Lee](https://suinlee.cs.washington.edu/). Before my PhD, I earned a BS in Data Science and Big Data Technology at Yuanpei College, Peking University. Please see my [CV](https://qiuweipku.github.io/cv/) for more information.
 
 **I am recruiting a postdoc (Spring 2026), two PhD students (Fall 2026), and students at all levels for research opportunities — please reach out if you are interested, and see the details in the [lab openings](#lab-openings).**
 
